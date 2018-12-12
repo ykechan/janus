@@ -79,7 +79,6 @@ public class MemoryRepo implements Repository {
         if(this.array.length >= target) {
             return;
         }
-        
         int capacity = this.array.length;
         while(capacity < target) {
             capacity += this.step;
