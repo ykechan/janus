@@ -45,7 +45,7 @@ public class MemoryRepo implements Repository {
      * Constructor.
      * @param array  Backing array
      */
-    protected MemoryRepo(byte[] array) {
+    public MemoryRepo(byte[] array) {
         this.array = array;
         this.step = DEFAULT_INIT_STEP;
     }
